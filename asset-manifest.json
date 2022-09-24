@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/giftapp/static/css/main.b0794235.css",
+    "main.css": "/giftapp/static/css/main.8f5f0829.css",
     "main.js": "/giftapp/static/js/main.9cc74f73.js",
     "static/js/787.f8e8c821.chunk.js": "/giftapp/static/js/787.f8e8c821.chunk.js",
     "index.html": "/giftapp/index.html",
-    "main.b0794235.css.map": "/giftapp/static/css/main.b0794235.css.map",
+    "main.8f5f0829.css.map": "/giftapp/static/css/main.8f5f0829.css.map",
     "main.9cc74f73.js.map": "/giftapp/static/js/main.9cc74f73.js.map",
     "787.f8e8c821.chunk.js.map": "/giftapp/static/js/787.f8e8c821.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b0794235.css",
+    "static/css/main.8f5f0829.css",
     "static/js/main.9cc74f73.js"
   ]
 }
