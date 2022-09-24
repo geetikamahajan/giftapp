@@ -1,0 +1,18 @@
+.Item {
+    margin: 5%;
+}
+.Image {
+    width: 75%;
+}
+.Item-options {
+    display: grid;
+}
+.Size-select {
+    width: 10%;
+}
+.Length-select {
+    width: 12%;
+}
+.Button {
+    margin: 1%;
+}
