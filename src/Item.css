@@ -16,3 +16,12 @@
 .Button {
     margin: 1%;
 }
+
+@media only screen and (max-width: 600px) {
+    .Size-select {
+        width: 55%;
+    }
+    .Length-select {
+        width: 55%;
+    }
+}
