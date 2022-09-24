@@ -1,6 +1,6 @@
-import logo from './logo.svg';
 import './App.css';
 import Item from "./Item";
+import {Helmet} from "react-helmet";
 
 function App() {
 
@@ -9,6 +9,10 @@ function App() {
 
   return (
     <div className="App">
+        <Helmet>
+            <title>Happy Birthday Mayank!</title>
+            <meta name="viewport" content="initial-scale=1, width=device-width" />
+        </Helmet>
       <header className="App-header">
         <p>
           Happy birthday Mayank!

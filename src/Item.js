@@ -1,6 +1,6 @@
 import './Item.css';
 import * as React from 'react';
-
+import {Helmet} from "react-helmet";
 import {FormControl, InputLabel, Select, MenuItem, Button} from "@mui/material";
 import emailjs from 'emailjs-com';
 
@@ -48,6 +48,9 @@ function Item({name, imgLink, sizes, lengths}) {
     if (lengths.length === 0) {
         return (
             <div className={"Item"}>
+                <Helmet>
+                    <meta name="viewport" content="initial-scale=1, width=device-width" />
+                </Helmet>
                 <img className={"Image"} src={imgLink}/>
                 <p>{name}</p>
                 <div className={"Item-options"}>
@@ -74,6 +77,9 @@ function Item({name, imgLink, sizes, lengths}) {
     } else {
         return (
             <div className={"Item"}>
+                <Helmet>
+                    <meta name="viewport" content="initial-scale=1, width=device-width" />
+                </Helmet>
                 <img className={"Image"} src={imgLink}/>
                 <p>{name}</p>
                 <div className={"Item-options"}>

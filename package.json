@@ -1,6 +1,7 @@
 {
   "name": "giftapp",
   "version": "0.1.0",
+  "homepage": "https://geetikamahajan.github.io/giftapp/",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.4",
@@ -13,10 +14,13 @@
     "firebase": "^9.10.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-helmet": "^6.1.0",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -39,5 +43,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }
